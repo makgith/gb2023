@@ -1,11 +1,6 @@
 ﻿Console.Write("Input number: ");
 int num = int.Parse(Console.ReadLine());
 
-for (int i = 0; i < 3; i++)
-{
-
-}
-
 num = num < 0 ? -num: num;
 
 if (num < 99)
