@@ -14,7 +14,6 @@ for (
     i++, number = number % denominator / 10, denominator /= 100
 )
 {
-    System.Console.WriteLine($"n is: {number} den is: {denominator}");
     if (number / denominator != number % 10)
     {
         System.Console.WriteLine("No");
