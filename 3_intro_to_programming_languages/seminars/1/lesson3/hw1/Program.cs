@@ -11,9 +11,10 @@ while (Math.Pow(10, digits_num - 1) > number || number > Math.Pow(10, digits_num
 for (
     int i = 0, denominator = (int) Math.Pow(10, digits_num - 1);
     i < digits_num / 2;
-    i++, number = number / denominator - number % 10, denominator /= 10
+    i++, number = number % denominator / 10, denominator /= 100
 )
 {
+    System.Console.WriteLine($"n is: {number} den is: {denominator}");
     if (number / denominator != number % 10)
     {
         System.Console.WriteLine("No");
