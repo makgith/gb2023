@@ -1,7 +1,6 @@
 ﻿
 Console.Write($"Enter first dot coordinats (real numbers delimited with space): ");
 double[] a = Console.ReadLine().Split(" ").Select(double.Parse).ToArray();
-System.Console.WriteLine($"{a[0]}");
 Console.Write($"Enter second dot coordinats (real numbers delimited with space): ");
 double[] b = Console.ReadLine().Split(" ").Select(double.Parse).ToArray();
 
