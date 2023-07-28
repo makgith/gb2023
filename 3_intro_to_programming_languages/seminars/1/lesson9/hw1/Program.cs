@@ -22,7 +22,6 @@ void PrintEvenNumbers(int current, int target)
     {
         PrintEvenNumbers(current + 1, target);
     }
-
 }
 
 // MAIN
